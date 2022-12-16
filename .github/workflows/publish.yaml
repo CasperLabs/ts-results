@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '16.18.0'
           registry-url: "https://registry.npmjs.org"
-          scope: "@zondax"
+          scope: "@casperlabs"
       - name: Install packages
         run: npm install 
       - name: Build package
@@ -47,4 +47,4 @@ jobs:
           cd dist
           npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_PUBLISH_AUTO }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

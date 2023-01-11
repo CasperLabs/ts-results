@@ -25,6 +25,9 @@
   ],
   "author": "Vultix",
   "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/casperlabs/ts-results"
